@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My album</title>
+    <style>
+        .photo-frame {
+            width: 300px;
+            height: 225px;
+            border: 3px solid rgb(248, 103, 0);
+            border-radius: 10px;
+            position: relative;
+            margin: 10px;
+        }
+        .photo-frame:hover .photo-detail{
+            display: block;
+            background-color: rgba(255, 248, 220, 0.5);
+            transition: transform 2s ease;
+        }
+        .photo img{
+            width: 100%;
+            border-radius: 10px;
+        }
+        .photo-detail{
+            display: none;
+            position: absolute;
+            width: 300px;
+            height: 225px;
+            top: 0;
+            
+        }
+        .photo-detail h3{
+            background-color: black;
+            color: blanchedalmond;
+            text-align: center;
+        }
+        .photo-detail p{
+            font-size: 700;
+        }
+        .photo-album{
+            display: flex;
+            flex-wrap: wrap;
+            
+        }
+    </style>
+</head>
+<body>
+    <h1>My photo album</h1>
+    <section>
+        <h3>Tiger album</h3>
+        <div class="photo-album">
+            <div class="photo-frame">
+                <div class="photo">
+                    <img src="/tig.jpg" alt="">
+                </div>
+                <div class="photo-detail">
+                    <h3>Tiger at rest</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus dolor culpa maiores officia dolorum optio similique corrupti in et sequi, eveniet ducimus cumque porro commodi cum neque dolorem ut? Aspernatur.
+                    </p>
+                </div>
+            </div>
+            <div class="photo-frame">
+                <div class="photo">
+                    <img src="/tig.jpg" alt="">
+                </div>
+                <div class="photo-detail">
+                    <h3>Tiger at rest</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus dolor culpa maiores officia dolorum optio similique corrupti in et sequi, eveniet ducimus cumque porro commodi cum neque dolorem ut? Aspernatur.
+                    </p>
+                </div>
+            </div>
+            <div class="photo-frame">
+                <div class="photo">
+                    <img src="/tig.jpg" alt="">
+                </div>
+                <div class="photo-detail">
+                    <h3>Tiger at rest</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus dolor culpa maiores officia dolorum optio similique corrupti in et sequi, eveniet ducimus cumque porro commodi cum neque dolorem ut? Aspernatur.
+                    </p>
+                </div>
+            </div>
+            <div class="photo-frame">
+                <div class="photo">
+                    <img src="/tig.jpg" alt="">
+                </div>
+                <div class="photo-detail">
+                    <h3>Tiger at rest</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus dolor culpa maiores officia dolorum optio similique corrupti in et sequi, eveniet ducimus cumque porro commodi cum neque dolorem ut? Aspernatur.
+                    </p>
+                </div>
+            </div>
+            <div class="photo-frame">
+                <div class="photo">
+                    <img src="/tig.jpg" alt="">
+                </div>
+                <div class="photo-detail">
+                    <h3>Tiger at rest</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus dolor culpa maiores officia dolorum optio similique corrupti in et sequi, eveniet ducimus cumque porro commodi cum neque dolorem ut? Aspernatur.
+                    </p>
+                </div>
+            </div>
+            <div class="photo-frame">
+                <div class="photo">
+                    <img src="/tig.jpg" alt="">
+                </div>
+                <div class="photo-detail">
+                    <h3>Tiger at rest</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus dolor culpa maiores officia dolorum optio similique corrupti in et sequi, eveniet ducimus cumque porro commodi cum neque dolorem ut? Aspernatur.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
